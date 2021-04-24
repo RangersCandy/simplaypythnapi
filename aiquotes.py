@@ -157,7 +157,7 @@ def delete(self, id):
 
 api.add_resource(Quote, "/ai-quotes", "/ai-quotes/", "/ai-quotes/<int:id>")
 
-print("test message - opening port 5000")
+print("test message - flask running on port 5001")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
