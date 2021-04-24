@@ -157,7 +157,7 @@ def delete(self, id):
 
 api.add_resource(Quote, "/ai-quotes", "/ai-quotes/", "/ai-quotes/<int:id>")
 
-print("test message")
+print("test message - oprning port 5001")
 
 if __name__ == '__main__':
     app.run(debug=True)
